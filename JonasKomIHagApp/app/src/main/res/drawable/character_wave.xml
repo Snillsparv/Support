@@ -15,21 +15,15 @@
         android:fillColor="#7986CB"
         android:pathData="M26,45 L20,30 Q16,22 20,16 L25,14 Q30,14 30,20 L28,38 Z"/>
 
-    <!-- Hand palm -->
-    <ellipse
+    <!-- Hand palm (ellipse as path) -->
+    <path
         android:fillColor="#FFF8E1"
-        android:cx="27"
-        android:cy="10"
-        android:rx="12"
-        android:ry="10"/>
+        android:pathData="M27,0 C34,0 39,4.5 39,10 C39,15.5 34,20 27,20 C20,20 15,15.5 15,10 C15,4.5 20,0 27,0 Z"/>
 
-    <!-- Thumb -->
-    <ellipse
+    <!-- Thumb (ellipse as path) -->
+    <path
         android:fillColor="#FFF8E1"
-        android:cx="16"
-        android:cy="12"
-        android:rx="4"
-        android:ry="6"/>
+        android:pathData="M16,6 C18,6 20,8.7 20,12 C20,15.3 18,18 16,18 C14,18 12,15.3 12,12 C12,8.7 14,6 16,6 Z"/>
 
     <!-- Finger 1 -->
     <path
@@ -53,7 +47,6 @@
 
     <!-- Palm line detail -->
     <path
-        android:fillColor="@android:color/transparent"
         android:strokeColor="#FFCC80"
         android:strokeWidth="1"
         android:pathData="M22,12 Q27,14 32,12"/>

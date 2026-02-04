@@ -5,13 +5,10 @@
     android:viewportWidth="180"
     android:viewportHeight="180">
 
-    <!-- Shadow under body -->
-    <ellipse
-        android:fillColor="#00000020"
-        android:cx="90"
-        android:cy="172"
-        android:rx="45"
-        android:ry="8"/>
+    <!-- Shadow under body (ellipse as path) -->
+    <path
+        android:fillColor="#20000000"
+        android:pathData="M90,164 C115,164 135,168 135,172 C135,176 115,180 90,180 C65,180 45,176 45,172 C45,168 65,164 90,164 Z"/>
 
     <!-- Body - main shape -->
     <path
@@ -30,7 +27,6 @@
 
     <!-- Left eyebrow -->
     <path
-        android:fillColor="@android:color/transparent"
         android:strokeColor="#37474F"
         android:strokeWidth="3"
         android:strokeLineCap="round"
@@ -38,77 +34,45 @@
 
     <!-- Right eyebrow -->
     <path
-        android:fillColor="@android:color/transparent"
         android:strokeColor="#37474F"
         android:strokeWidth="3"
         android:strokeLineCap="round"
         android:pathData="M100,52 Q110,48 120,52"/>
 
-    <!-- Left eye white -->
-    <ellipse
+    <!-- Left eye white (ellipse as path) -->
+    <path
         android:fillColor="#FFFFFF"
-        android:cx="70"
-        android:cy="68"
-        android:rx="14"
-        android:ry="12"/>
+        android:pathData="M70,56 C78,56 84,61 84,68 C84,75 78,80 70,80 C62,80 56,75 56,68 C56,61 62,56 70,56 Z"/>
 
-    <!-- Left eye pupil -->
-    <circle
+    <!-- Left eye pupil (circle as path) -->
+    <path
         android:fillColor="#37474F"
-        android:cx="72"
-        android:cy="70"
-        android:r="8"/>
+        android:pathData="M72,62 C76.4,62 80,65.6 80,70 C80,74.4 76.4,78 72,78 C67.6,78 64,74.4 64,70 C64,65.6 67.6,62 72,62 Z"/>
 
     <!-- Left eye highlight -->
-    <circle
+    <path
         android:fillColor="#FFFFFF"
-        android:cx="75"
-        android:cy="67"
-        android:r="3"/>
+        android:pathData="M75,64 C76.7,64 78,65.3 78,67 C78,68.7 76.7,70 75,70 C73.3,70 72,68.7 72,67 C72,65.3 73.3,64 75,64 Z"/>
 
-    <!-- Left eye small highlight -->
-    <circle
+    <!-- Right eye white (ellipse as path) -->
+    <path
         android:fillColor="#FFFFFF"
-        android:cx="70"
-        android:cy="73"
-        android:r="1.5"/>
+        android:pathData="M110,56 C118,56 124,61 124,68 C124,75 118,80 110,80 C102,80 96,75 96,68 C96,61 102,56 110,56 Z"/>
 
-    <!-- Right eye white -->
-    <ellipse
-        android:fillColor="#FFFFFF"
-        android:cx="110"
-        android:cy="68"
-        android:rx="14"
-        android:ry="12"/>
-
-    <!-- Right eye pupil -->
-    <circle
+    <!-- Right eye pupil (circle as path) -->
+    <path
         android:fillColor="#37474F"
-        android:cx="112"
-        android:cy="70"
-        android:r="8"/>
+        android:pathData="M112,62 C116.4,62 120,65.6 120,70 C120,74.4 116.4,78 112,78 C107.6,78 104,74.4 104,70 C104,65.6 107.6,62 112,62 Z"/>
 
     <!-- Right eye highlight -->
-    <circle
+    <path
         android:fillColor="#FFFFFF"
-        android:cx="115"
-        android:cy="67"
-        android:r="3"/>
+        android:pathData="M115,64 C116.7,64 118,65.3 118,67 C118,68.7 116.7,70 115,70 C113.3,70 112,68.7 112,67 C112,65.3 113.3,64 115,64 Z"/>
 
-    <!-- Right eye small highlight -->
-    <circle
-        android:fillColor="#FFFFFF"
-        android:cx="110"
-        android:cy="73"
-        android:r="1.5"/>
-
-    <!-- Nose -->
-    <ellipse
+    <!-- Nose (ellipse as path) -->
+    <path
         android:fillColor="#FFCC80"
-        android:cx="90"
-        android:cy="82"
-        android:rx="4"
-        android:ry="3"/>
+        android:pathData="M90,79 C92,79 94,80.3 94,82 C94,83.7 92,85 90,85 C88,85 86,83.7 86,82 C86,80.3 88,79 90,79 Z"/>
 
     <!-- Happy mouth -->
     <path
@@ -117,77 +81,59 @@
 
     <!-- Smile line -->
     <path
-        android:fillColor="@android:color/transparent"
         android:strokeColor="#37474F"
         android:strokeWidth="2.5"
         android:strokeLineCap="round"
         android:pathData="M72,92 Q90,106 108,92"/>
 
-    <!-- Left cheek blush -->
-    <ellipse
+    <!-- Left cheek blush (ellipse as path) -->
+    <path
         android:fillColor="#FFCDD2"
-        android:cx="52"
-        android:cy="85"
-        android:rx="10"
-        android:ry="7"/>
+        android:pathData="M52,78 C58,78 62,81 62,85 C62,89 58,92 52,92 C46,92 42,89 42,85 C42,81 46,78 52,78 Z"/>
 
-    <!-- Right cheek blush -->
-    <ellipse
+    <!-- Right cheek blush (ellipse as path) -->
+    <path
         android:fillColor="#FFCDD2"
-        android:cx="128"
-        android:cy="85"
-        android:rx="10"
-        android:ry="7"/>
+        android:pathData="M128,78 C134,78 138,81 138,85 C138,89 134,92 128,92 C122,92 118,89 118,85 C118,81 122,78 128,78 Z"/>
 
     <!-- Left arm -->
     <path
         android:fillColor="#5C6BC0"
         android:pathData="M40,75 L18,98 Q12,105 18,112 L28,112 Q35,112 40,105 L48,88 Z"/>
 
-    <!-- Left hand -->
-    <circle
+    <!-- Left hand (circle as path) -->
+    <path
         android:fillColor="#FFF8E1"
-        android:cx="18"
-        android:cy="105"
-        android:r="10"/>
+        android:pathData="M18,95 C23.5,95 28,99.5 28,105 C28,110.5 23.5,115 18,115 C12.5,115 8,110.5 8,105 C8,99.5 12.5,95 18,95 Z"/>
 
     <!-- Right arm pointing up -->
     <path
         android:fillColor="#5C6BC0"
         android:pathData="M140,75 L158,88 Q165,92 162,100 L155,100 Q148,100 145,95 L140,85 Z"/>
 
-    <!-- Feet -->
-    <ellipse
+    <!-- Left foot (ellipse as path) -->
+    <path
         android:fillColor="#3F51B5"
-        android:cx="68"
-        android:cy="168"
-        android:rx="20"
-        android:ry="8"/>
+        android:pathData="M68,160 C79,160 88,163.6 88,168 C88,172.4 79,176 68,176 C57,176 48,172.4 48,168 C48,163.6 57,160 68,160 Z"/>
 
-    <ellipse
+    <!-- Right foot (ellipse as path) -->
+    <path
         android:fillColor="#3F51B5"
-        android:cx="112"
-        android:cy="168"
-        android:rx="20"
-        android:ry="8"/>
+        android:pathData="M112,160 C123,160 132,163.6 132,168 C132,172.4 123,176 112,176 C101,176 92,172.4 92,168 C92,163.6 101,160 112,160 Z"/>
 
-    <!-- Bell accessory on body -->
-    <circle
+    <!-- Bell accessory - outer -->
+    <path
         android:fillColor="#FFD54F"
-        android:cx="90"
-        android:cy="135"
-        android:r="12"/>
+        android:pathData="M90,123 C96.6,123 102,128.4 102,135 C102,141.6 96.6,147 90,147 C83.4,147 78,141.6 78,135 C78,128.4 83.4,123 90,123 Z"/>
 
-    <circle
+    <!-- Bell accessory - inner -->
+    <path
         android:fillColor="#FFC107"
-        android:cx="90"
-        android:cy="135"
-        android:r="8"/>
+        android:pathData="M90,127 C94.4,127 98,130.6 98,135 C98,139.4 94.4,143 90,143 C85.6,143 82,139.4 82,135 C82,130.6 85.6,127 90,127 Z"/>
 
-    <circle
+    <!-- Bell accessory - clapper -->
+    <path
         android:fillColor="#37474F"
-        android:cx="90"
-        android:cy="139"
-        android:r="3"/>
+        android:pathData="M90,136 C91.7,136 93,137.3 93,139 C93,140.7 91.7,142 90,142 C88.3,142 87,140.7 87,139 C87,137.3 88.3,136 90,136 Z"/>
 
 </vector>
