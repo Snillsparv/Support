@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="55dp"
+    android:height="55dp"
+    android:viewportWidth="55"
+    android:viewportHeight="55">
+
+    <!-- Arm -->
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M28,50 L18,30 Q12,18 18,12 L28,8 Q38,8 38,18 L33,40 Z"/>
+
+    <!-- Arm highlight -->
+    <path
+        android:fillColor="#7986CB"
+        android:pathData="M26,45 L20,30 Q16,22 20,16 L25,14 Q30,14 30,20 L28,38 Z"/>
+
+    <!-- Hand palm -->
+    <ellipse
+        android:fillColor="#FFF8E1"
+        android:cx="27"
+        android:cy="10"
+        android:rx="12"
+        android:ry="10"/>
+
+    <!-- Thumb -->
+    <ellipse
+        android:fillColor="#FFF8E1"
+        android:cx="16"
+        android:cy="12"
+        android:rx="4"
+        android:ry="6"/>
+
+    <!-- Finger 1 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M20,8 L18,0 Q20,-2 22,0 L22,7 Z"/>
+
+    <!-- Finger 2 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M25,6 L24,-2 Q26,-4 28,-2 L28,5 Z"/>
+
+    <!-- Finger 3 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M31,6 L32,-2 Q34,-4 36,-2 L34,5 Z"/>
+
+    <!-- Finger 4 -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M36,8 L38,1 Q40,-1 42,1 L39,8 Z"/>
+
+    <!-- Palm line detail -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFCC80"
+        android:strokeWidth="1"
+        android:pathData="M22,12 Q27,14 32,12"/>
+
+</vector>

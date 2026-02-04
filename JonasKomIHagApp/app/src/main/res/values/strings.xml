@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jonas kom-i-håg-app!</string>
+
+    <!-- Navigation -->
+    <string name="previous_day">Föregående dag</string>
+    <string name="next_day">Nästa dag</string>
+    <string name="go_to_today">Gå till idag</string>
+    <string name="today">Idag</string>
+    <string name="tomorrow">Imorgon</string>
+    <string name="yesterday">Igår</string>
+
+    <!-- Reminder Dialog -->
+    <string name="new_reminder">Ny påminnelse</string>
+    <string name="edit_reminder">Redigera påminnelse</string>
+    <string name="reminder_hint">Vad vill du bli påmind om?</string>
+    <string name="show_notification">Visa notifikation</string>
+    <string name="play_alarm">Spela alarmljud</string>
+    <string name="speak_message">Läs upp meddelandet</string>
+    <string name="save">Spara</string>
+    <string name="cancel">Avbryt</string>
+    <string name="delete">Ta bort</string>
+
+    <!-- Alarm -->
+    <string name="alarm_title">Hej! Dags för:</string>
+    <string name="dismiss_alarm">OK, tack!</string>
+
+    <!-- Permissions -->
+    <string name="notification_permission_title">Notifikationer behövs</string>
+    <string name="notification_permission_message">Appen behöver skicka notifikationer för att påminna dig om dina uppgifter.</string>
+    <string name="alarm_permission_title">Alarmbehörighet behövs</string>
+    <string name="alarm_permission_message">För att alarmen ska fungera exakt på utsatt tid behöver appen behörighet att schemalägga exakta alarm.</string>
+    <string name="open_settings">Öppna inställningar</string>
+    <string name="permission_denied_title">Behörighet nekad</string>
+    <string name="permission_denied_message">Utan notifikationsbehörighet kommer påminnelser inte att visas.</string>
+
+    <!-- Delete Dialog -->
+    <string name="delete_reminder_title">Ta bort påminnelse</string>
+    <string name="delete_reminder_message">Vill du ta bort påminnelsen \"%s\"?</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_notification">Notifikation aktiverad</string>
+    <string name="cd_alarm">Alarm aktiverat</string>
+    <string name="cd_speaker">Röstuppläsning aktiverad</string>
+    <string name="cd_character">Påminnelsefigur</string>
+</resources>

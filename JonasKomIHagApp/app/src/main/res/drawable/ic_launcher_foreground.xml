@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+
+    <!-- Bell icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30c-1.1,0 -2,0.9 -2,2v1.36c-5.72,1.36 -10,6.44 -10,12.64v10l-4,4v2h32v-2l-4,-4v-10c0,-6.2 -4.28,-11.28 -10,-12.64V32c0,-1.1 -0.9,-2 -2,-2zM54,74c2.2,0 4,-1.8 4,-4h-8c0,2.2 1.8,4 4,4z"/>
+
+    <!-- Star decorations -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M30,35l2,4 4,0.5 -3,2.5 0.5,4 -3.5,-2 -3.5,2 0.5,-4 -3,-2.5 4,-0.5z"/>
+
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M78,40l1.5,3 3,0.4 -2.2,2 0.4,3 -2.7,-1.5 -2.7,1.5 0.4,-3 -2.2,-2 3,-0.4z"/>
+
+</vector>

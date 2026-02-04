@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#5C6BC0"
+                android:centerColor="#7E57C2"
+                android:endColor="#AB47BC"/>
+        </shape>
+    </item>
+
+    <!-- Overlay for depth -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="400dp"
+                android:centerX="0.8"
+                android:centerY="0.2"
+                android:startColor="#20FFFFFF"
+                android:endColor="#00FFFFFF"/>
+        </shape>
+    </item>
+
+    <!-- Bottom fade -->
+    <item>
+        <shape>
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#00000000"
+                android:centerColor="#00000000"
+                android:endColor="#15000000"/>
+        </shape>
+    </item>
+</layer-list>
